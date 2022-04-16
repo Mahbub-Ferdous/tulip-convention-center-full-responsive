@@ -176,4 +176,26 @@ body {
 /*************************
     happy-clients-ends
   **************************/
-
+/************************* 
+  footer-section-starts
+**************************/
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    margin-top: 3rem;
+    padding: 70px 0px 70px 0px;
+  }
+  .img-size {
+    height: 2.5rem;
+    width: 8.4rem;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .text {
+    color: #b4b1b1;
+  }
+  /************************* 
+    footer-section-starts
+  **************************/
