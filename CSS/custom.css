@@ -37,3 +37,41 @@ body {
   --package-info: #848199;
   --package-btn: #fce5f3;
 }
+
+/********************
+    navbar-starts 
+*********************/
+.brand-color {
+  color: var(--btn-booknow);
+}
+.mt-10 {
+  margin-top: 4rem;
+}
+.navbar-style {
+  padding: 0.25rem 0.75rem;
+  background-color: #ffffff;
+  font-size: 1.25rem;
+}
+.fs-10 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.margin-bottom {
+  margin-bottom: 5px;
+}
+.padding-bottom {
+  padding-bottom: 1rem;
+}
+.btn-book-now {
+  width: 6rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--carousel-title);
+  color: var(--btn-booknow);
+  font-weight: 700;
+  font-size: 14px;
+  border: 0;
+}
+/******************
+    Navbar-ends
+  *******************/
