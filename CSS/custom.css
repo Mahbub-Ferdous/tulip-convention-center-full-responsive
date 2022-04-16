@@ -155,3 +155,24 @@ body {
 /***********************
     our-package-ends 
 ************************/
+
+/*************************
+  happy-clients-starts
+**************************/
+.card-img-rounded {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+.reviews {
+  color: var(--package-info);
+  font-size: 14px;
+}
+.b-redius {
+  border-radius: 10px;
+}
+
+/*************************
+    happy-clients-ends
+  **************************/
