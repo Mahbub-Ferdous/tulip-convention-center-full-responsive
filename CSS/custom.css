@@ -79,33 +79,79 @@ body {
   Explore-album-starts
 *************************/
 .explore-title {
-    color: var(--explore-title);
-  }
-  .explore-info {
-    color: var(--explore-info);
-    font-size: 0.8rem;
-    font-weight: 700;
-  }
-  .btn-explore-album {
-    background-color: var(--btn-booknow);
-    color: var(--carousel-title);
-    padding: 10px 24px;
-    width: 15rem;
-    height: 2.75rem;
-    border: 0;
-  }
-  .arrow-icon-btm {
-    margin-bottom: 5px;
-    font-weight: 700;
-  }
-  .absolute-position {
-    position: sticky;
-    bottom: 50%;
-    left: 100%;
-  }
-  .border-left-color {
-    border-left: 8px solid var(--btn-booknow);
-  }
-  /**********************
+  color: var(--explore-title);
+}
+.explore-info {
+  color: var(--explore-info);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.btn-explore-album {
+  background-color: var(--btn-booknow);
+  color: var(--carousel-title);
+  padding: 10px 24px;
+  width: 15rem;
+  height: 2.75rem;
+  border: 0;
+}
+.arrow-icon-btm {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.absolute-position {
+  position: sticky;
+  bottom: 50%;
+  left: 100%;
+}
+.border-left-color {
+  border-left: 8px solid var(--btn-booknow);
+}
+/**********************
     explore-album-ends
   ***********************/
+
+/***********************
+   our-package-starts 
+************************/
+.package-title {
+  color: var(--package-title);
+}
+.btn-choose-plan {
+  border-radius: 24px;
+  width: 12.9rem;
+  height: 2.8rem;
+  background-color: var(--package-btn);
+  color: var(--btn-booknow);
+}
+.font-size {
+  font-size: 16px;
+  color: var(--package-info);
+}
+.font-size-package {
+  font-size: 16px;
+  color: var(--carousel-title);
+}
+.hot-package {
+  background-color: var(--btn-booknow);
+  border-radius: 24px;
+  color: var(--carousel-title);
+}
+.btn-choose-plan-hot {
+  border-radius: 24px;
+  width: 12.9rem;
+  height: 2.8rem;
+  color: var(--btn-booknow);
+  background-color: var(--carousel-title);
+}
+.hot {
+  background-color: rgb(240, 11, 11);
+  color: var(--carousel-title);
+  border-radius: 50px;
+  width: 50px;
+  position: absolute;
+  top: -3%;
+  left: 75%;
+}
+/***********************
+    our-package-ends 
+************************/
