@@ -74,4 +74,38 @@ body {
 }
 /******************
     Navbar-ends
-  *******************/
+*******************/
+/************************
+  Explore-album-starts
+*************************/
+.explore-title {
+    color: var(--explore-title);
+  }
+  .explore-info {
+    color: var(--explore-info);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .btn-explore-album {
+    background-color: var(--btn-booknow);
+    color: var(--carousel-title);
+    padding: 10px 24px;
+    width: 15rem;
+    height: 2.75rem;
+    border: 0;
+  }
+  .arrow-icon-btm {
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  .absolute-position {
+    position: sticky;
+    bottom: 50%;
+    left: 100%;
+  }
+  .border-left-color {
+    border-left: 8px solid var(--btn-booknow);
+  }
+  /**********************
+    explore-album-ends
+  ***********************/
